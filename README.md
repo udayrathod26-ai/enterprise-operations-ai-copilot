@@ -24,6 +24,7 @@ Enterprise Operations AI Copilot enables users to ask business questions in natu
 * Streamlit
 * Pandas
 * SQL
+* Power BI
 * OpenAI API
 * Git & GitHub
 
@@ -50,14 +51,36 @@ Copilot/
 ├── data_loader.py
 ├── question_router.py
 ├── screenshots/
+├── Power Bi/screenshots/
 ├── tests/
 
 ## Screenshots
 
-(Add screenshots here)
+### Home Screen
+![Home Screen](screenshots/01_home.png)
+
+### KPI Dashboard
+![KPI Dashboard](screenshots/02_kpi_dashboard.png)
+
+### Executive Brief
+![Executive Brief](screenshots/03_executive_brief.png)
+
+### Project Performance
+![Project Performance](screenshots/04_project_performance.png)
+
+### Business Issues & Risk
+![Business Issues](screenshots/05_Business_issues_risk.png)
+
+### Employee Utilization
+![Employee Utilization](screenshots/06_Employee_Utilization.png)
+
+### Root Cause Analysis
+![Root Cause Analysis](screenshots/07_Root_Cause.png)
+
+### Generative AI Insights
+![Generative AI Insights](screenshots/Generative_AI_Insights.png)
 
 ## Future Improvements
-
 * Real-time database integration
 * Predictive analytics
 * Multi-user authentication
