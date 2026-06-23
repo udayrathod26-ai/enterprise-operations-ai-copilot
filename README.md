@@ -1,90 +1,67 @@
-\# Enterprise Operations AI Copilot
+# Enterprise Operations AI Copilot
 
+AI-powered Operations Intelligence platform built using Python, Streamlit, SQL, and Large Language Models to provide business insights through natural language interaction.
 
+## Business Problem
 
-AI-powered Operations Intelligence platform combining Python, SQL, Streamlit and LLM capabilities to provide business insights through natural language interaction.
+Organizations generate large volumes of operational data across employees, projects, financial metrics, and business activities. Business leaders often rely on manual reporting and analyst support to obtain actionable insights.
 
+Enterprise Operations AI Copilot enables users to ask business questions in natural language and receive AI-generated insights instantly.
 
+## Features
 
-\## Features
+* KPI Monitoring Dashboard
+* Executive Business Insights
+* Resource Utilization Analysis
+* Project Performance Tracking
+* Natural Language Querying
+* AI-powered Executive Brief Generation
+* Interactive Streamlit Interface
 
+## Tech Stack
 
+* Python
+* Streamlit
+* Pandas
+* SQL
+* OpenAI API
+* Git & GitHub
 
-\- KPI Monitoring
+## Architecture
 
-\- Executive Dashboard
+Data Sources
+↓
+Data Processing Layer
+↓
+Business Logic & Analytics
+↓
+Streamlit Frontend
+↓
+LLM-powered Insights Engine
 
-\- Resource Utilization Analysis
-
-\- Project Performance Tracking
-
-\- AI Generated Executive Briefs
-
-\- Natural Language Business Queries
-
-
-
-\## Tech Stack
-
-
-
-\- Python
-
-\- Streamlit
-
-\- SQL
-
-\- OpenAI API
-
-\- Pandas
-
-
-
-\## Project Structure
-
-
-
-```text
+## Project Structure
 
 Copilot/
 
-│
-
 ├── app.py
-
-├── ai\_engine.py
-
-├── question\_router.py
-
-├── business\_queries.py
-
-├── chart\_generator.py
-
-├── data\_loader.py
-
-│
-
-├── data/
-
-├── docs/
-
+├── ai_engine.py
+├── business_queries.py
+├── chart_generator.py
+├── data_loader.py
+├── question_router.py
 ├── screenshots/
-
 ├── tests/
 
-```
+## Screenshots
 
+(Add screenshots here)
 
+## Future Improvements
 
-\## Future Improvements
+* Real-time database integration
+* Predictive analytics
+* Multi-user authentication
+* Agentic workflow automation
 
-
-
-\- Multi-user support
-
-\- Real-time data integration
-
-\- Predictive analytics
-
-\- Agentic workflows
-
+## Author
+Uday Rathod
