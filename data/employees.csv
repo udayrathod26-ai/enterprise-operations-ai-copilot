@@ -1,0 +1,201 @@
+employee_id,employee_name,department,role,location,salary,experience_years,joining_date,employee_rating,work_mode
+1001,Theodore Basak,Finance,Analyst,Hyderabad,1553556,4,2018-03-12,1.9,Office
+1002,Upma Garg,Data Analytics,Consultant,Mumbai,764647,10,2019-10-04,2.7,Remote
+1003,Robert Sinha,Data Analytics,Senior Analyst,Bangalore,511299,9,2024-08-16,1.8,Office
+1004,Finn Bawa,Finance,AI Specialist,Chennai,1324594,8,2022-08-20,3.4,Remote
+1005,Jonathan Pillay,HR,Senior Analyst,Chennai,1827114,5,2024-09-13,1.6,Hybrid
+1006,Robert Dara,Data Analytics,Analyst,Chennai,805657,6,2026-02-17,4.4,Office
+1007,Eiravati Sankar,AI Engineering,Analyst,Chennai,923558,15,2017-04-09,2.5,Office
+1008,Garima Radhakrishnan,AI Engineering,Consultant,Mumbai,1916807,10,2021-06-25,1.8,Remote
+1009,Udyati Sandal,Data Analytics,Consultant,Bangalore,1613781,2,2023-07-17,4.4,Remote
+1010,Radhika Dugal,Project Management,Data Engineer,Chennai,1930217,3,2024-12-10,2.5,Remote
+1011,Zansi Menon,Finance,Data Engineer,Hyderabad,1117807,9,2019-12-31,3.9,Remote
+1012,Tamanna Kale,Project Management,Project Manager,Pune,1321132,11,2020-02-09,2.3,Remote
+1013,Shaurya Balay,Cloud Operations,Analyst,Pune,2082607,5,2019-05-14,1.3,Office
+1014,Lakshmi Dugal,Finance,Data Engineer,Bangalore,2493927,7,2023-08-07,4.5,Office
+1015,Anika Salvi,Project Management,Senior Analyst,Pune,985652,4,2019-02-19,4.0,Office
+1016,Ati Bumb,AI Engineering,Consultant,Mumbai,2196981,15,2019-08-08,3.3,Hybrid
+1017,Dalaja Deo,Cloud Operations,Senior Analyst,Mumbai,2469955,2,2024-08-14,4.0,Remote
+1018,Bishakha Batta,Cloud Operations,Consultant,Bangalore,2170667,10,2016-08-02,1.3,Hybrid
+1019,Arunima Dass,Cyber Security,Project Manager,Mumbai,1454507,9,2024-04-04,4.4,Remote
+1020,Gayathri Khatri,Finance,Consultant,Hyderabad,1519145,13,2018-06-23,3.6,Remote
+1021,Zehaan Mishra,AI Engineering,Project Manager,Bangalore,2303055,1,2023-10-15,4.8,Office
+1022,Vedant Chhabra,AI Engineering,AI Specialist,Bangalore,846319,14,2026-04-19,3.5,Office
+1023,Banjeet Memon,Cyber Security,AI Specialist,Bangalore,1041054,6,2020-12-26,4.1,Office
+1024,Ayaan Warrior,HR,AI Specialist,Hyderabad,1759609,8,2019-06-09,1.1,Hybrid
+1025,Manthan Choudhury,HR,Data Engineer,Bangalore,642955,4,2017-11-29,4.5,Remote
+1026,Shivani Nath,Data Analytics,Consultant,Chennai,690298,13,2022-05-16,3.1,Remote
+1027,Tanay Tiwari,Cloud Operations,Consultant,Chennai,1092592,5,2020-10-09,3.1,Office
+1028,Aayush Nanda,Project Management,Senior Analyst,Mumbai,1243688,12,2022-07-30,2.2,Office
+1029,Faris Rao,Finance,Data Engineer,Chennai,2293670,2,2023-02-27,2.0,Remote
+1030,Yadavi Parmar,AI Engineering,Analyst,Mumbai,1365171,10,2020-11-24,1.9,Remote
+1031,Prisha Walla,Finance,Consultant,Hyderabad,1360251,2,2023-06-28,4.6,Hybrid
+1032,Vedhika Bhargava,Data Analytics,AI Specialist,Bangalore,1568018,11,2018-12-27,2.9,Office
+1033,Hema Bail,Cloud Operations,Consultant,Mumbai,2382525,4,2018-05-21,4.1,Hybrid
+1034,Victor Dora,Cloud Operations,Analyst,Hyderabad,2207959,6,2022-08-25,2.7,Hybrid
+1035,Rachita Radhakrishnan,HR,Consultant,Hyderabad,812794,1,2019-02-25,2.6,Hybrid
+1036,Vedika Pall,HR,Analyst,Bangalore,1203587,4,2021-05-28,3.1,Remote
+1037,Praneel Ramanathan,Project Management,Senior Analyst,Pune,2340402,4,2025-09-30,4.5,Remote
+1038,Abha Tak,Project Management,AI Specialist,Hyderabad,612182,11,2022-03-07,5.0,Remote
+1039,Janya Dada,Data Analytics,Senior Analyst,Bangalore,2104624,8,2024-02-07,2.9,Hybrid
+1040,Ranveer Chauhan,Data Analytics,Senior Analyst,Chennai,409040,7,2024-06-25,2.1,Hybrid
+1041,Vihaan Sethi,AI Engineering,Project Manager,Mumbai,2441247,3,2019-12-19,1.8,Remote
+1042,Vyanjana Ramakrishnan,Data Analytics,AI Specialist,Mumbai,655674,12,2023-02-02,2.3,Remote
+1043,Lakshit Wadhwa,Cyber Security,Project Manager,Mumbai,1060320,1,2022-04-21,4.8,Remote
+1044,Manbir Narayan,HR,Senior Analyst,Hyderabad,685048,11,2024-02-27,4.4,Hybrid
+1045,Mahika Oak,Data Analytics,AI Specialist,Bangalore,566688,10,2020-11-11,1.3,Office
+1046,Ansh Dass,Cyber Security,AI Specialist,Mumbai,1726951,15,2016-07-08,2.0,Office
+1047,Balendra Sachar,Finance,Data Engineer,Bangalore,1514068,7,2022-02-16,1.5,Office
+1048,Aishani Sinha,AI Engineering,Project Manager,Pune,704267,1,2018-10-05,2.8,Office
+1049,Vaishnavi Tata,Data Analytics,Analyst,Mumbai,1294033,9,2020-09-27,2.1,Hybrid
+1050,Krish Kade,Data Analytics,Senior Analyst,Pune,1595323,3,2017-03-18,2.8,Office
+1051,Aishani Krish,Finance,Data Engineer,Mumbai,432812,11,2023-09-12,4.3,Hybrid
+1052,Vansha Sandal,Finance,Analyst,Bangalore,1509250,2,2025-03-31,4.6,Office
+1053,Nidhi Mangat,Cyber Security,Senior Analyst,Pune,1581771,10,2021-01-19,1.8,Hybrid
+1054,Quincy Kashyap,Cloud Operations,Consultant,Pune,2449051,5,2023-08-09,4.6,Remote
+1055,Deepa Chand,Data Analytics,Consultant,Chennai,1560480,1,2020-01-03,1.0,Remote
+1056,Megha Date,Finance,Data Engineer,Bangalore,2253192,9,2021-07-17,3.8,Office
+1057,Vyanjana Ben,Data Analytics,Analyst,Hyderabad,1025178,9,2017-11-10,1.1,Hybrid
+1058,Gavin Issac,Cyber Security,AI Specialist,Bangalore,2202656,3,2021-08-26,1.2,Hybrid
+1059,Anika Soni,HR,Analyst,Pune,1281124,11,2017-12-06,2.0,Remote
+1060,Bhavika Peri,AI Engineering,AI Specialist,Chennai,1048243,15,2022-03-02,4.7,Remote
+1061,Falak Agrawal,HR,Senior Analyst,Chennai,503961,3,2025-05-20,3.9,Hybrid
+1062,Rishi Kalita,HR,Project Manager,Bangalore,1519064,3,2021-01-04,4.1,Remote
+1063,Mohini Pant,Project Management,Analyst,Chennai,1332954,4,2025-04-21,4.3,Hybrid
+1064,Yadavi Mani,AI Engineering,Data Engineer,Bangalore,1335009,1,2024-02-21,3.6,Hybrid
+1065,Neel Gupta,AI Engineering,Data Engineer,Hyderabad,1570735,6,2018-01-17,3.6,Hybrid
+1066,Jhalak Vora,Finance,AI Specialist,Pune,515765,2,2024-04-11,4.5,Hybrid
+1067,Vidhi Dixit,Cloud Operations,AI Specialist,Pune,560462,2,2018-03-02,3.4,Hybrid
+1068,Owen Bhalla,Finance,Data Engineer,Chennai,885053,7,2016-07-18,4.6,Remote
+1069,Advaith Wadhwa,AI Engineering,Analyst,Chennai,407093,9,2020-07-12,4.7,Office
+1070,Qushi Sampath,Finance,Consultant,Bangalore,1927655,7,2019-04-08,1.3,Office
+1071,Agastya Gill,AI Engineering,AI Specialist,Pune,922716,12,2019-07-08,4.6,Office
+1072,David Puri,AI Engineering,Consultant,Chennai,1768110,7,2021-05-04,3.8,Office
+1073,Ojasvi Zachariah,Cloud Operations,Senior Analyst,Chennai,1990250,11,2020-09-14,4.0,Remote
+1074,Ridhi Barad,Cyber Security,AI Specialist,Pune,2103202,9,2016-12-03,4.3,Hybrid
+1075,Yash Subramanian,AI Engineering,Senior Analyst,Chennai,1751611,8,2018-05-17,2.8,Office
+1076,Guneet Bawa,Cloud Operations,AI Specialist,Chennai,1111737,11,2024-09-14,1.3,Office
+1077,Aradhana Gala,Finance,Consultant,Mumbai,1805881,2,2020-06-20,4.3,Remote
+1078,Lakshit Handa,Finance,Data Engineer,Bangalore,1235211,3,2024-09-18,1.1,Remote
+1079,Yadavi Borra,Project Management,AI Specialist,Hyderabad,2310153,7,2025-06-26,4.5,Office
+1080,Gayathri Chokshi,Cloud Operations,Consultant,Chennai,2473568,7,2025-07-13,2.0,Office
+1081,Yamini Shah,Finance,Analyst,Hyderabad,2183192,4,2024-12-17,1.7,Office
+1082,Akshay Chaudhari,Cyber Security,Project Manager,Hyderabad,1445213,15,2017-02-03,4.4,Hybrid
+1083,Zilmil Sha,Cloud Operations,Project Manager,Mumbai,1730844,13,2023-01-26,4.6,Office
+1084,Faris Ganesh,HR,Consultant,Mumbai,2189880,14,2017-03-14,4.6,Hybrid
+1085,Zarna Chokshi,Cloud Operations,Consultant,Chennai,2287729,5,2023-05-09,4.0,Office
+1086,Viraj Sama,AI Engineering,AI Specialist,Chennai,1403469,5,2019-07-31,2.8,Office
+1087,Gagan Bakshi,AI Engineering,Senior Analyst,Pune,1808646,6,2017-11-12,4.6,Remote
+1088,Victor Savant,Cloud Operations,Senior Analyst,Bangalore,2006566,12,2024-06-19,1.6,Remote
+1089,Michael Comar,Data Analytics,Project Manager,Chennai,1787817,9,2021-06-01,2.9,Remote
+1090,Dhriti Shankar,Cloud Operations,Project Manager,Chennai,481922,14,2024-05-11,4.5,Office
+1091,Jasmit Nori,Project Management,Project Manager,Hyderabad,1875383,5,2021-02-05,4.0,Hybrid
+1092,Nathan Dey,Cyber Security,Consultant,Mumbai,1325006,8,2019-06-24,1.9,Hybrid
+1093,Harini Kakar,Project Management,Analyst,Chennai,1809829,11,2023-09-19,3.7,Hybrid
+1094,Sathvik Bumb,Finance,Senior Analyst,Chennai,935309,10,2020-07-27,3.1,Hybrid
+1095,Dayamai Bala,Cyber Security,AI Specialist,Hyderabad,752101,11,2019-11-23,2.7,Hybrid
+1096,Nihal Lad,Cloud Operations,Analyst,Pune,1990076,6,2025-11-06,1.8,Hybrid
+1097,Keya Boase,AI Engineering,Project Manager,Pune,2168171,5,2022-08-11,4.3,Hybrid
+1098,Karan Tella,Data Analytics,Consultant,Mumbai,618462,6,2021-03-17,1.9,Remote
+1099,Shravya Ghosh,HR,Consultant,Hyderabad,530149,4,2019-12-18,1.8,Remote
+1100,Imaran Natarajan,Cyber Security,Senior Analyst,Bangalore,929409,8,2023-02-01,3.7,Office
+1101,Yamini Sabharwal,Cloud Operations,Project Manager,Pune,1947258,3,2021-10-10,3.4,Office
+1102,Bina Pai,Finance,Analyst,Bangalore,1704591,2,2022-08-14,3.3,Hybrid
+1103,Warda Balasubramanian,Cyber Security,Consultant,Chennai,2063689,12,2022-04-05,1.8,Office
+1104,Henry Kala,Finance,Consultant,Bangalore,827405,12,2016-09-14,4.1,Office
+1105,Jagat Srivastava,Cyber Security,Analyst,Mumbai,572256,6,2020-08-29,3.1,Office
+1106,Vihaan Balay,AI Engineering,Analyst,Mumbai,1831227,1,2021-11-19,4.4,Hybrid
+1107,Sarthak Bhatnagar,Data Analytics,Project Manager,Pune,2328286,12,2017-06-10,1.6,Remote
+1108,Dalbir Dora,Finance,AI Specialist,Pune,2427935,8,2025-07-01,2.7,Office
+1109,Wyatt Nagy,Cyber Security,Data Engineer,Pune,1429681,14,2025-05-09,4.7,Hybrid
+1110,Gaurangi Khurana,Project Management,Senior Analyst,Chennai,1989596,6,2017-03-12,1.1,Hybrid
+1111,Janya Lal,Cloud Operations,Project Manager,Bangalore,1888243,13,2018-11-08,2.0,Hybrid
+1112,Kashvi Badami,Cyber Security,Consultant,Pune,442576,9,2026-03-20,4.8,Remote
+1113,Nitesh Vyas,Cloud Operations,Consultant,Chennai,2449244,9,2021-06-01,4.0,Office
+1114,Abdul Kumer,Project Management,Consultant,Chennai,2279780,13,2024-02-14,1.1,Hybrid
+1115,Hemal Brar,Cloud Operations,Project Manager,Bangalore,1684321,11,2016-06-12,3.3,Hybrid
+1116,Abhiram Yadav,Cyber Security,AI Specialist,Pune,2184692,12,2019-09-10,3.2,Hybrid
+1117,Aarnav Das,Finance,Project Manager,Pune,1686070,5,2022-04-10,1.9,Office
+1118,Qushi Bhatia,Cloud Operations,Data Engineer,Hyderabad,1176574,4,2018-06-29,1.9,Hybrid
+1119,Jhalak Patla,AI Engineering,Consultant,Mumbai,1586982,2,2017-09-16,4.3,Hybrid
+1120,Jagrati Seth,Cloud Operations,Data Engineer,Bangalore,1667802,1,2016-08-30,3.8,Remote
+1121,Vincent Seshadri,AI Engineering,Analyst,Hyderabad,1625309,12,2026-02-10,4.8,Office
+1122,Anjali Lanka,HR,Project Manager,Hyderabad,451444,10,2025-03-26,2.1,Hybrid
+1123,Vidhi Babu,Project Management,Data Engineer,Bangalore,615489,5,2020-09-22,4.8,Hybrid
+1124,Viraj Aggarwal,Data Analytics,Analyst,Chennai,2462534,2,2018-07-17,3.3,Office
+1125,Hardik Singh,Data Analytics,Senior Analyst,Bangalore,1674378,2,2025-09-20,5.0,Remote
+1126,Lucky Suri,Cyber Security,Project Manager,Mumbai,1346600,13,2024-06-09,3.1,Hybrid
+1127,Wakeeta Pant,Project Management,Data Engineer,Mumbai,2198642,5,2023-11-26,3.3,Remote
+1128,Irya Bhatti,Cyber Security,Consultant,Hyderabad,1271525,11,2023-11-26,1.8,Office
+1129,Tanvi Saxena,Data Analytics,Senior Analyst,Bangalore,1129026,9,2024-06-30,1.3,Remote
+1130,Isaac Dubey,Project Management,Project Manager,Mumbai,2370955,5,2016-10-11,1.1,Hybrid
+1131,Ayushman Sankaran,Finance,Data Engineer,Chennai,698549,11,2021-08-01,1.9,Hybrid
+1132,Mohammed Batta,HR,Consultant,Mumbai,1229713,7,2021-12-26,1.5,Remote
+1133,Aditya Dhingra,Finance,Senior Analyst,Pune,996582,2,2016-07-31,1.2,Hybrid
+1134,Naveen Mitra,Cyber Security,Consultant,Mumbai,1610520,8,2017-06-10,1.5,Office
+1135,Rajata Kant,AI Engineering,Consultant,Chennai,1541883,9,2020-09-09,3.2,Hybrid
+1136,Wakeeta Ramesh,Data Analytics,AI Specialist,Hyderabad,2212059,12,2024-10-19,2.3,Hybrid
+1137,Bahadurjit Sathe,Data Analytics,Analyst,Bangalore,487012,13,2024-09-17,3.7,Hybrid
+1138,Dayita Badami,Cyber Security,Analyst,Bangalore,2373423,9,2018-06-03,3.6,Hybrid
+1139,Chanakya Kunda,Cloud Operations,AI Specialist,Chennai,2462447,2,2019-07-22,2.9,Hybrid
+1140,Chandran Tella,AI Engineering,Data Engineer,Hyderabad,1074548,6,2024-02-10,2.6,Hybrid
+1141,Eshana Kapadia,AI Engineering,Consultant,Chennai,553918,8,2024-08-28,1.4,Hybrid
+1142,Zaid Behl,AI Engineering,Analyst,Chennai,404827,11,2022-06-11,4.5,Hybrid
+1143,Rajeshri Sood,Project Management,Analyst,Bangalore,1917412,10,2023-02-05,4.0,Office
+1144,Chanakya Purohit,Project Management,Analyst,Bangalore,1520115,9,2024-07-27,1.5,Hybrid
+1145,Anthony Comar,Project Management,Consultant,Chennai,909297,1,2023-03-18,4.9,Office
+1146,Robert Palla,HR,Senior Analyst,Bangalore,1703380,9,2021-03-27,1.1,Hybrid
+1147,Lajita Seshadri,Data Analytics,Senior Analyst,Hyderabad,2335452,2,2024-06-11,3.6,Remote
+1148,Kashish Maharaj,Project Management,Consultant,Pune,1546827,7,2026-01-29,4.3,Hybrid
+1149,Dalbir Venkataraman,Cloud Operations,Project Manager,Mumbai,1006672,7,2019-09-17,1.8,Office
+1150,Samar Chacko,Cyber Security,Consultant,Bangalore,692804,5,2025-02-23,4.1,Hybrid
+1151,Oliver Hayer,AI Engineering,AI Specialist,Pune,410759,5,2018-12-23,3.9,Office
+1152,Elijah Dua,Cyber Security,Consultant,Chennai,1023254,8,2018-01-16,3.2,Hybrid
+1153,Udarsh Sandhu,AI Engineering,AI Specialist,Mumbai,1982133,8,2023-12-21,4.7,Remote
+1154,Charita Agrawal,Finance,Senior Analyst,Mumbai,2006296,4,2024-01-10,4.4,Hybrid
+1155,Gagan Pandey,Data Analytics,Data Engineer,Chennai,1998999,7,2019-11-10,5.0,Office
+1156,Saumya Dar,Cloud Operations,Project Manager,Hyderabad,929515,9,2019-10-08,4.9,Hybrid
+1157,Darsh Munshi,HR,Analyst,Chennai,818221,9,2022-07-19,4.6,Remote
+1158,Eesha Chhabra,Finance,Senior Analyst,Chennai,1047437,2,2016-10-05,2.9,Hybrid
+1159,Yuvraj Bedi,AI Engineering,AI Specialist,Chennai,736866,14,2019-12-08,2.3,Office
+1160,Harrison Natarajan,HR,AI Specialist,Chennai,1728173,11,2021-03-28,3.9,Hybrid
+1161,Samesh Borra,HR,AI Specialist,Hyderabad,686977,4,2025-04-12,3.5,Hybrid
+1162,Charvi Dhingra,Cloud Operations,Consultant,Hyderabad,2220208,2,2023-08-20,4.0,Office
+1163,Umang Chowdhury,HR,Analyst,Chennai,1097784,12,2020-07-23,2.2,Remote
+1164,Baghyawati Chada,Data Analytics,Data Engineer,Hyderabad,1630473,6,2019-09-29,2.5,Remote
+1165,Dominic Tara,Cloud Operations,AI Specialist,Chennai,1155213,3,2023-01-23,1.7,Office
+1166,Bhavini Amble,HR,Project Manager,Mumbai,1410113,8,2016-12-05,4.7,Remote
+1167,Nitesh Kulkarni,Cloud Operations,Project Manager,Pune,2327578,5,2018-01-18,3.7,Hybrid
+1168,Utkarsh Mammen,AI Engineering,Consultant,Mumbai,1062597,2,2022-04-23,2.8,Hybrid
+1169,Maanav Mand,Cyber Security,Data Engineer,Chennai,1448987,8,2023-10-11,4.4,Remote
+1170,Nachiket Dash,Project Management,Project Manager,Hyderabad,1394912,7,2017-08-25,3.3,Office
+1171,Qadim Pillay,AI Engineering,Consultant,Pune,492021,14,2019-07-18,3.6,Hybrid
+1172,Wridesh Rastogi,Data Analytics,AI Specialist,Hyderabad,2483425,14,2019-12-04,4.6,Hybrid
+1173,Wridesh Sama,HR,Senior Analyst,Mumbai,1877741,4,2024-04-19,3.5,Office
+1174,Chaman Bumb,AI Engineering,Consultant,Bangalore,807535,15,2016-06-21,3.5,Remote
+1175,Chavvi Kaur,AI Engineering,Project Manager,Hyderabad,1930338,12,2020-03-02,1.5,Hybrid
+1176,Saumya Manne,AI Engineering,Consultant,Chennai,1136687,4,2020-12-22,1.5,Office
+1177,Qarin Brahmbhatt,AI Engineering,AI Specialist,Mumbai,1543062,14,2016-11-08,1.7,Hybrid
+1178,Pratyush Babu,HR,Data Engineer,Pune,883056,8,2019-05-14,4.9,Remote
+1179,Anamika Balasubramanian,HR,Senior Analyst,Chennai,1934171,2,2020-06-29,4.2,Remote
+1180,Sai Ravel,AI Engineering,AI Specialist,Hyderabad,2307510,6,2017-05-14,3.7,Office
+1181,Adweta Badal,AI Engineering,AI Specialist,Chennai,1958073,2,2018-12-31,3.7,Hybrid
+1182,Alexander Saraf,Data Analytics,AI Specialist,Mumbai,1775758,15,2025-09-17,3.4,Office
+1183,Harita Sangha,Data Analytics,Consultant,Chennai,1667477,11,2019-04-28,2.6,Remote
+1184,Farhan Virk,Data Analytics,Analyst,Pune,2466217,2,2026-01-27,1.4,Office
+1185,Gagan Dara,Cloud Operations,Project Manager,Chennai,1956135,11,2021-04-20,4.8,Office
+1186,Oni Bera,Cyber Security,Project Manager,Mumbai,1048116,15,2019-04-20,2.7,Remote
+1187,Ijaya More,HR,Project Manager,Mumbai,2111762,5,2017-01-30,1.1,Hybrid
+1188,Atharv De,Cloud Operations,Project Manager,Chennai,1390328,14,2023-06-15,2.5,Office
+1189,Bimala Dada,AI Engineering,AI Specialist,Pune,653965,7,2018-03-09,2.1,Remote
+1190,Bhavya Wadhwa,HR,Project Manager,Hyderabad,1289636,11,2023-08-30,3.6,Remote
+1191,Chandani Pradhan,Data Analytics,Data Engineer,Bangalore,928163,13,2026-02-23,3.3,Remote
+1192,Banjeet Borah,HR,AI Specialist,Bangalore,1305765,14,2022-03-11,4.5,Hybrid
+1193,Hitesh Doctor,HR,Senior Analyst,Mumbai,411893,5,2024-07-27,4.4,Remote
+1194,Falguni Padmanabhan,Cloud Operations,AI Specialist,Pune,1131893,2,2024-04-25,3.6,Remote
+1195,Krishna Balan,Cloud Operations,Analyst,Pune,1397957,10,2020-04-23,2.3,Remote
+1196,Yauvani Issac,AI Engineering,Analyst,Bangalore,2165636,9,2017-06-30,1.5,Remote
+1197,Tara Oommen,Project Management,Project Manager,Pune,857405,8,2022-05-15,3.0,Office
+1198,Matthew Kurian,Data Analytics,Consultant,Mumbai,1665129,8,2022-07-13,3.6,Remote
+1199,Pahal Gupta,Data Analytics,Project Manager,Chennai,2187921,11,2019-07-26,1.4,Office
+1200,Alka Bhardwaj,Project Management,Analyst,Hyderabad,1751034,10,2024-01-11,1.6,Remote
