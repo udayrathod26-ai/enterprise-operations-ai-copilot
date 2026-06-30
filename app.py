@@ -109,8 +109,8 @@ if st.button("📋 Generate Executive Brief"):
 
     with st.expander("View Supporting Metrics"):
         col1, col2, col3 = st.columns(3)
-        col1.metric("Revenue", f"₹{executive_data['Total Revenue']/1000000:.2f} M")
-        col2.metric("Profit", f"₹{executive_data['Total Profit']/1000000:.2f} M")
+        col1.metric("Revenue", f"₹{executive_data['Total Revenue']:.2f} M")
+        col2.metric("Profit", f"₹{executive_data['Total Profit']:.2f} M")
         col3.metric("Profit Margin", f"{executive_data['Profit Margin %']}%")
 
         col4, col5, col6 = st.columns(3)
