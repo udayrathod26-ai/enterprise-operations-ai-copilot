@@ -108,19 +108,21 @@ Please try again shortly.
 def generate_executive_brief(data):
     
     # Adding the formating for revenue
-    if isinstance(data, dict):
+    # Create formatted copy (do NOT modify original data)
+    formatted_data = data.copy()
 
-        data["Total Revenue"] = f"₹{data['Total Revenue']:.2f}M"
-        data["Total Cost"] = f"₹{data['Total Cost']:.2f}M"
-        data["Total Profit"] = f"₹{data['Total Profit']:.2f}M"
-        data["Avg Revenue Per Project"] = f"₹{data['Avg Revenue Per Project']:.2f}M"
-        data["Profit Margin %"] = f"{data['Profit Margin %']:.2f}%"
+    formatted_data["Total Revenue"] = f"₹{data['Total Revenue']:.2f}M"
+    formatted_data["Total Cost"] = f"₹{data['Total Cost']:.2f}M"
+    formatted_data["Total Profit"] = f"₹{data['Total Profit']:.2f}M"
+    formatted_data["Avg Revenue Per Project"] = f"₹{data['Avg Revenue Per Project']:.2f}M"
+    formatted_data["Profit Margin %"] = f"{data['Profit Margin %']:.2f}%"
+    
     prompt = f"""
 You are a CIO-level Executive Operations Advisor.
 
 Analyze:
 
-{data}
+{formatted_data}
 
 Create:
 
