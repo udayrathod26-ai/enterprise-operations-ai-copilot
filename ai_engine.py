@@ -108,11 +108,13 @@ Please try again shortly.
 def generate_executive_brief(data):
     
     # Adding the formating for revenue
-    data["Total Revenue"] = f"₹{data['Total Revenue']:.2f}M"
-    data["Total Cost"] = f"₹{data['Total Cost']:.2f}M"
-    data["Total Profit"] = f"₹{data['Total Profit']:.2f}M"
-    data["Avg Revenue Per Project"] = f"₹{data['Avg Revenue Per Project']:.2f}M"
-    data["Profit Margin %"] = f"{data['Profit Margin %']:.2f}%"
+    if isinstance(data, dict):
+
+        data["Total Revenue"] = f"₹{data['Total Revenue']:.2f}M"
+        data["Total Cost"] = f"₹{data['Total Cost']:.2f}M"
+        data["Total Profit"] = f"₹{data['Total Profit']:.2f}M"
+        data["Avg Revenue Per Project"] = f"₹{data['Avg Revenue Per Project']:.2f}M"
+        data["Profit Margin %"] = f"{data['Profit Margin %']:.2f}%"
     prompt = f"""
 You are a CIO-level Executive Operations Advisor.
 

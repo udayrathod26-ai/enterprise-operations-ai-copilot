@@ -102,7 +102,7 @@ if st.button("📋 Generate Executive Brief"):
     executive_data = get_executive_brief_data()
 
     with st.spinner("Generating Executive Brief..."):
-        brief = generate_executive_brief(str(executive_data))
+        brief = generate_executive_brief(executive_data)
 
     st.subheader("📑 Executive Brief")
     st.markdown(brief)
