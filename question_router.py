@@ -105,8 +105,12 @@ def route_question(question):
     
     elif ("project revenue" in question
       or "highest revenue project" in question
+      or "highest revenue" in question
+      or "which project has highest revenue" in question
       or "revenue by project" in question
-      or "top revenue" in question):
+      or "top revenue" in question
+      or "top project" in question
+      or ("project" in question and "revenue" in question) ):
         return get_project_revenue()
 
     else:
