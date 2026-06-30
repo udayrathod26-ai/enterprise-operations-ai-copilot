@@ -99,10 +99,42 @@ def get_executive_brief_data():
         "Critical Incidents": critical_incidents,
         "SLA Compliance %": sla_compliance
     }
+
 def get_project_revenue():
 
-    revenue_df = projects.groupby("ProjectName", as_index=False)["Revenue"].sum()
-    revenue_df = revenue_df.sort_values(by="Revenue",ascending=False)
-    revenue_df["Revenue"] = (revenue_df["Revenue"]/1000000 ).round(2)
-    revenue_df.rename(  columns={  "Revenue":"Revenue (Millions)"},inplace=True)
+    # Merge project names with timesheet revenue
+    revenue_df = timesheets.merge(
+        projects[["project_id", "project_name"]],
+        on="project_id",
+        how="left"
+    )
+
+    # Calculate total revenue per project
+    revenue_df = (
+        revenue_df.groupby(
+            "project_name",
+            as_index=False
+        )["billing_amount_inr"]
+        .sum()
+    )
+
+    # Sort highest revenue first
+    revenue_df = revenue_df.sort_values(
+        by="billing_amount_inr",
+        ascending=False
+    )
+
+    # Convert to millions
+    revenue_df["billing_amount_inr"] = (
+        revenue_df["billing_amount_inr"] / 1000000
+    ).round(2)
+
+    # Rename for display
+    revenue_df.rename(
+        columns={
+            "billing_amount_inr": "Revenue (Millions)"
+        },
+        inplace=True
+    )
+
     return revenue_df
