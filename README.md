@@ -80,6 +80,20 @@ Copilot/
 ### Generative AI Insights
 ![Generative AI Insights](screenshots/Generative_AI_Insights.png)
 
+
+### PowerBi Dashboard
+### Dashboard_Overview
+![Dashboard_Overview](PowerBi/screenshots/01_Dashboard_Overview.png)
+
+### Project Delivary & SLA
+![Project Delivary & SLA](PowerBi/screenshots/02_Project_Delivery_&_SLA.png)
+
+### Risk & Operations
+![Risk & Operations](PowerBi/screenshots/03_Risk_&_Operations.png)
+
+### Resource & Workforce Analytics
+![Resource & Workforce Analytics](PowerBi/screenshots/04_Resource_&_Workforce_Analytics.png)
+
 ## Future Improvements
 * Real-time database integration
 * Predictive analytics
@@ -87,4 +101,4 @@ Copilot/
 * Agentic workflow automation
 
 ## Author
-Uday Rathod
+Uday Singh Rathod
