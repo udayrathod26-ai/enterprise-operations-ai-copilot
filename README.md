@@ -8,37 +8,54 @@ Organizations generate large volumes of operational data across employees, proje
 
 Enterprise Operations AI Copilot enables users to ask business questions in natural language and receive AI-generated insights instantly.
 
+## Live Demo: https://enterprise-operations-ai-copilot-b2zkspazmksdhajpbwciaz.streamlit.app/
+
 ## Features
 
-* KPI Monitoring Dashboard
-* Executive Business Insights
-* Resource Utilization Analysis
-* Project Performance Tracking
-* Natural Language Querying
-* AI-powered Executive Brief Generation
-* Interactive Streamlit Interface
+* Natural language business queries
+* Executive summary generation
+* KPI analytics
+* Project risk and delay detection
+* Resource utilization insights
+* Incident/SLA analysis
+* Power BI dashboard integration
+* Conversational interface
 
 ## Tech Stack
 
-* Python
-* Streamlit
-* Pandas
-* SQL
-* Power BI
-* OpenAI API
-* Git & GitHub
+Frontend:
+- Streamlit
+
+Backend:
+- Python
+
+AI:
+- OpenAI/Gemini API
+
+Database:
+- SQL
+
+Analytics:
+- Power BI
+
+Deployment:
+- Streamlit Cloud
 
 ## Architecture
 
-Data Sources
-↓
-Data Processing Layer
-↓
-Business Logic & Analytics
-↓
-Streamlit Frontend
-↓
-LLM-powered Insights Engine
+User Query
+      ↓
+Question Router
+      ↓
+Business Query Engine
+      ↓
+AI Processing Layer
+      ↓
+Data Analysis
+      ↓
+Power BI Visualization
+      ↓
+Response Generation
 
 ## Project Structure
 
@@ -53,6 +70,8 @@ Copilot/
 ├── screenshots/
 ├── Power Bi/screenshots/
 ├── tests/
+├── datasets/
+└── README.md
 
 ## Screenshots
 
