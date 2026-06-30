@@ -66,7 +66,7 @@ from business_queries import (get_executive_kpis, get_executive_brief_data)
 # -----------------------------------
 
 def format_million(value):
-    return f"₹{value/1000000:.2f} M"
+    return f"₹{value:.2f} M"
 
 
 # -----------------------------------

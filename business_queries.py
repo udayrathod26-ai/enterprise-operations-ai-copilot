@@ -77,13 +77,13 @@ def get_executive_kpis():
     avg_revenue_per_project = round(total_revenue /projects["project_id"].nunique(), 2)
 
     return {
-        "Total Revenue": float(round(total_revenue,2)),
-        "Total Cost": float(round(total_cost,2)),
-        "Total Profit": float(round(total_profit,2)),
-        "Profit Margin %": float(profit_margin),
-        "Avg Revenue Per Project": float(avg_revenue_per_project),
-        "Avg Productivity": float(avg_productivity),
-        "Avg Utilization": float(avg_utilization)
+        "Total Revenue": float(round(total_revenue/1000000,2)),
+        "Total Cost": float(round(total_cost/1000000,2)),
+        "Total Profit": float(round(total_profit/1000000,2)),
+        "Profit Margin %": float(round(profit_margin,2)),
+        "Avg Revenue Per Project": float(round(avg_revenue_per_project/1000000,2)),
+        "Avg Productivity": float(round(avg_productivity,2)),
+        "Avg Utilization": float(round(avg_utilization,2))
         }
 
 
@@ -99,3 +99,10 @@ def get_executive_brief_data():
         "Critical Incidents": critical_incidents,
         "SLA Compliance %": sla_compliance
     }
+def get_project_revenue():
+
+    revenue_df = projects.groupby("ProjectName", as_index=False)["Revenue"].sum()
+    revenue_df = revenue_df.sort_values(by="Revenue",ascending=False)
+    revenue_df["Revenue"] = (revenue_df["Revenue"]/1000000 ).round(2)
+    revenue_df.rename(  columns={  "Revenue":"Revenue (Millions)"},inplace=True)
+    return revenue_df

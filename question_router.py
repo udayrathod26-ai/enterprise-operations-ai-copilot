@@ -5,7 +5,8 @@ from business_queries import (
     get_critical_incidents,
     get_top_root_causes,
     get_sla_compliance,
-    get_executive_brief_data
+    get_executive_brief_data,
+    get_project_revenue
 )
 
 
@@ -101,6 +102,12 @@ def route_question(question):
         "overall performance"
     ]):
         return get_executive_brief_data()
+    
+    elif ("project revenue" in question
+      or "highest revenue project" in question
+      or "revenue by project" in question
+      or "top revenue" in question):
+        return get_project_revenue()
 
     else:
         return """
