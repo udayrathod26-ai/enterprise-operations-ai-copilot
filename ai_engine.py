@@ -10,12 +10,15 @@ import os
 load_dotenv()
 
 # -----------------------------------
-# Gemini Client
+# Configure Gemini
 # -----------------------------------
 
-client = genai.Client(
+genai.configure(
     api_key=os.getenv("GOOGLE_API_KEY")
 )
+
+# Create model instance
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 # -----------------------------------
 # Business Question Summary
@@ -54,10 +57,7 @@ Keep the response:
 
     try:
 
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt
-        )
+        response = model.generate_content(prompt)
 
         return response.text
 
@@ -89,7 +89,7 @@ Please review the supporting data and charts below.
 Please retry after a few moments.
 """
 
-         # Gemini high demand
+        # High demand
         elif "503" in error_message:
 
             return """
@@ -101,6 +101,7 @@ The dashboard analytics and KPI calculations remain available.
 
 Please try again in a few minutes.
 """
+
         else:
 
             return f"""
@@ -145,10 +146,7 @@ Guidelines:
 
     try:
 
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt
-        )
+        response = model.generate_content(prompt)
 
         return response.text
 
@@ -177,11 +175,11 @@ Please try again later for AI-generated commentary.
 
 Please retry after a few moments.
 """
-         # Gemini high demand
+
         elif "503" in error_message:
 
             return """
-### Executive Insight
+## Executive Brief
 
 ⚠️ AI service is currently experiencing high demand.
 
@@ -189,6 +187,7 @@ The dashboard analytics and KPI calculations remain available.
 
 Please try again in a few minutes.
 """
+
         else:
 
             return f"""
