@@ -110,31 +110,15 @@ def get_project_revenue():
     )
 
     # Calculate total revenue per project
-    revenue_df = (
-        revenue_df.groupby(
-            "project_name",
-            as_index=False
-        )["billing_amount_inr"]
-        .sum()
-    )
+    revenue_df = (revenue_df.groupby("project_name",as_index=False)["billing_amount_inr"].sum())
 
     # Sort highest revenue first
-    revenue_df = revenue_df.sort_values(
-        by="billing_amount_inr",
-        ascending=False
-    )
+    revenue_df = revenue_df.sort_values(by="billing_amount_inr",ascending=False)
 
     # Convert to millions
-    revenue_df["billing_amount_inr"] = (
-        revenue_df["billing_amount_inr"] / 1000000
-    ).round(2)
+    revenue_df["billing_amount_inr"] = (revenue_df["billing_amount_inr"] / 1000000).round(2)
 
     # Rename for display
-    revenue_df.rename(
-        columns={
-            "billing_amount_inr": "Revenue (Millions)"
-        },
-        inplace=True
-    )
+    revenue_df.rename(columns={"billing_amount_inr": "Revenue (Millions)"},inplace=True)
 
     return revenue_df
